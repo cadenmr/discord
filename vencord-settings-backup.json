@@ -149,7 +149,9 @@
                 "ignoreChannels": "",
                 "ignoreGuilds": "",
                 "logEdits": true,
-                "logDeletes": true
+                "logDeletes": true,
+                "collapseDeleted": false,
+                "inlineEdits": true
             },
             "NoBlockedMessages": {
                 "enabled": false
@@ -482,7 +484,7 @@
             "ImageZoom": {
                 "enabled": true,
                 "size": 750.3205128205128,
-                "zoom": 2.6816239761717546,
+                "zoom": 2.6816239761717537,
                 "saveZoomValues": true,
                 "zoomSpeed": 1.5134615384615386,
                 "nearestNeighbour": false,
@@ -598,7 +600,8 @@
                 "spotify": true,
                 "steam": true,
                 "epic": true,
-                "tidal": true
+                "tidal": true,
+                "itunes": true
             },
             "FavoriteGifSearch": {
                 "enabled": true,
@@ -775,9 +778,6 @@
             "VoiceDownload": {
                 "enabled": false
             },
-            "WatchTogetherAdblock": {
-                "enabled": false
-            },
             "XSOverlay": {
                 "enabled": false
             },
@@ -788,6 +788,12 @@
                 "enabled": false
             },
             "ConsoleJanitor": {
+                "enabled": false
+            },
+            "MentionAvatars": {
+                "enabled": false
+            },
+            "YoutubeAdblock": {
                 "enabled": false
             }
         },
@@ -801,7 +807,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1721177180570
+            "settingsSyncVersion": 1724078788618
         },
         "macosTranslucency": false,
         "disableMinSize": false,
